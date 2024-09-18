@@ -1,0 +1,232 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #eee;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #eee;
+    height: 10vh;
+    
+}
+
+#header-img{
+    height: 9vh;
+    margin: 15px 25px;
+    
+}
+
+#nav-bar{
+    margin: 15px 25px; 
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif; 
+    color: black;
+
+}
+
+#nav-bar ul{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+ul{
+    list-style-type: none ;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-link{
+    margin-right: 100px;;
+}
+
+.form{
+    margin-top: 110px;
+    width: 100%;
+   margin-left: 550px;
+   
+}
+
+.form header{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold ;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    width: 20%;
+    height: 4vh;
+    margin-top: 28px;
+    margin-left: 60px;
+}
+
+#submit{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(255, 225, 0);
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 130px;
+    border: none;
+}
+
+form input{
+    text-align: center;
+}
+
+
+.container{
+    margin-left: 0;
+}
+
+.Features{
+    margin-left: 300px;;
+}
+
+.Features1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    box-sizing: border-box;
+    line-height: 1em;
+}
+
+.icon{
+    color:rgb(255, 128, 0) ;
+}
+.content1{
+    margin-left: 60px;
+    
+}
+
+.content1 header{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.content2{
+    margin-left: 40px;
+    width: 78%;
+}
+
+.content2 header{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.content3{
+    margin-left: 40px;
+    width: 78%;
+}
+
+
+.content3 header{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.How-Its-Works{
+    margin-left: 480px;
+   margin-top: 50px;
+}
+
+.How-Its-Works iframe{
+    width: 50%;
+}
+
+.Pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    
+}
+
+
+
+.price{
+    border: 2px solid black;
+    width: 25%;
+    height: 45vh;
+    text-align: center;
+    margin-left: 65px;
+}
+
+.price button{
+    height: 7vh;
+    width: 40%;
+    margin-top: 15px;
+    background-color: rgb(255, 225, 0);
+    border: none;
+}
+
+.pricename{
+    background-color: rgba(169, 169, 169, 0.434);
+    height: 7vh;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.price li{
+    list-style-type: none;
+    margin-top: 3px ;
+    margin-right: 34px;
+}
+
+footer{
+    background-color: rgba(169, 169, 169, 0.434);
+    margin-top: 20px;
+    width: 81.5%;
+    margin-left: 130px;
+    text-align: right;
+    height: 13vh;
+    line-height: 1.5;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    
+}
+
+.footer li{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+
+}
+
+footer span{
+    margin-right:20px;
+    
+}
+
+
+@media screen and (max-width:720px) {
+
+    #header{
+        width: 80%;
+    }
+}

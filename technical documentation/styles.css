@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    border-right: 3px solid rgb(91, 91, 97) ;
+    overflow-y: scroll;
+}
+
+nav header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 19.3%;
+    padding: 10px 10px 10px 0;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav ul li{
+    display: block;
+    border-top: 2px solid;
+    width: 150%;
+    margin-left: -42px;
+  
+}
+li a{
+    line-height: 1.5;
+}
+
+.nav-link {
+    color:black;
+    text-decoration: none;
+    margin: 10px;
+    padding-left: 35px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items:normal;
+}
+
+#main-doc{
+    position: relative;
+    width: 70%;
+    margin-left: 350px;
+}
+
+.main-section{
+    margin-top: 50px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.main-section header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #eae1e1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:769px){
+ nav{
+    width: 1000%;
+    height: 50vh;
+    overflow-y: scroll;
+    border-bottom: 3px solid rgb(91, 91, 97) ;
+    display: block;
+    position:absolute;
+ }    
+
+ nav header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 10%; 
+    position:absolute;
+}
+
+#main-doc{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 350px;
+    width: 89%;
+}
+
+code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
